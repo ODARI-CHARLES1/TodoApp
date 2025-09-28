@@ -10,8 +10,8 @@ const Header = () => {
           <h1 className='text-white text-4xl'>TODO</h1>
           {
             theme=="dark"? 
-           <img className='cursor-pointer' onClick={()=>changeTheme()} src="/src/Assets/Images/icon-sun.svg" alt="theme-icon" />:
-           <img className='cursor-pointer' onClick={()=>changeTheme()} src="/src/Assets/Images/icon-moon.svg" alt="theme-icon" />
+           <img className='cursor-pointer' onClick={()=>changeTheme()} src="/icon-sun.svg" alt="theme-icon" />:
+           <img className='cursor-pointer' onClick={()=>changeTheme()} src="/icon-moon.svg" alt="theme-icon" />
           }
         </div>
     </>
