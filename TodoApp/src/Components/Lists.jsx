@@ -19,7 +19,7 @@ const Lists = () => {
               } w-90% flex items-center justify-start gap-6 ${markDone.includes(todo.id)?"line-through text-gray-600":""}`}
             >
               <span onClick={()=>handleCompleted(todo.id)} className={`w-5 h-5 flex items-center justify-center ${markDone.includes(todo.id)?"mark-done":""}  rounded-full border-gray-600 cursor-pointer text-center border-2`}>
-                <img className={`${markDone.includes(todo.id)?"":"hidden"}`} src="./src/Assets/Images/icon-check.svg" alt="mark-icon" />
+                <img className={`${markDone.includes(todo.id)?"":"hidden"}`} src="../src/Assets/Images/icon-check.svg" alt="mark-icon" />
               </span>
               {todo.text}
             </p>
