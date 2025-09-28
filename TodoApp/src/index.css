@@ -32,7 +32,10 @@
   background-repeat: no-repeat;
   background-size: contain;
 }
+}
 
-
+.mark-done{
+  background: linear-gradient(to bottom ,hsl(192, 100%, 67%),hsl(280, 87%, 65%));
+  border: none;
 }
 
