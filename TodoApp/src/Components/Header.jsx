@@ -4,7 +4,6 @@ import { useUser } from '../Hooks/userHook'
 const Header = () => {
 
   const {theme,changeTheme}=useUser()
-  console.log(theme)
   return (
     <>
       <div className='flex ${theme==="dark"?"dark:bg-[hsl(235,21%,19%)]":"dark:bg-white"} md:w-[500px] w-[90vw] items-center justify-between'>
