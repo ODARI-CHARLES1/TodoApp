@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import "tailwindcss";
+
+*{
+  font-family: "Josefin Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@media (min-width:768px) {
+  .main-dark{
+  background-image: url('./Assets/Images/bg-desktop-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  .main-light{
+  background-image: url('./Assets/Images/bg-desktop-light.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+}
+
+@media (max-width:768px){
+  .main-dark{
+  background-image: url('./Assets/Images/bg-mobile-dark.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+  .main-light{
+  background-image: url('./Assets/Images/bg-mobile-light.jpg');
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+
+}
+
